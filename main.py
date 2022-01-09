@@ -364,7 +364,7 @@ def emiko_about_callback(update, context):
     query = update.callback_query
     if query.data == "emiko_":
         query.message.edit_text(
-            text="๏ I'm Zaid, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm Arc, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -412,7 +412,7 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, Zaid now ready to manage your group."
+            "\nCongragulations, Arc now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -454,8 +454,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Zaid", url="t.me/iam_dixie"),
-                    InlineKeyboardButton(text="Aman", url="t.me/iam_dixie"),
+                    InlineKeyboardButton(text="arc owner", url="t.me/iam_dixie"),
+                    InlineKeyboardButton(text="sec owner", url="t.me/iam_dixie"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
