@@ -4,21 +4,21 @@ class Config(object):
         # REQUIRED
             # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-                API_ID = "6435225"  
-                    API_HASH = "Aww"
-                        TOKEN = ""
-                            OWNER_ID = "1669178360"
-                                OWNER_USERNAME = "Timesisnotwaiting"
-                                    MONGO_DB_URI = ""
-                                        SUPPORT_CHAT = "Superior_Support"
+                API_ID = "6850612"  
+                    API_HASH = "dfde10a379b6b08184bf6c8966aece3b"
+                        TOKEN = "5090796273:AAFqHxSgAyetS_yA6jw9CHy3oRMWXcdMMvs"
+                            OWNER_ID = "5058700158"
+                                OWNER_USERNAME = "iam_dixie"
+                                    MONGO_DB_URI = "mongodb+srv://Kishan:7701800@cluster0.cefre.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+                                        SUPPORT_CHAT = "the_arc_support"
                                             JOIN_LOGGER = "-100"
                                                 EVENT_LOGS = "-100"
 
                                                     # RECOMMENDED
-                                                        INFOPIC = "https://telegra.ph/file/be24bbabbe0ec30dff489.jpg"   
+                                                        INFOPIC = "https://telegra.ph/file/9d07cb0aefdfab3c6541e.jpg"   
                                                             CF_API_KEY = ""
                                                                 LASTFM_API_KEY = ""
-                                                                    BOT_USERNAME = "Zaid2_Robot"
+                                                                    BOT_USERNAME = "arc_robot"
                                                                         WALL_API = ""
                                                                             OPENWEATHERMAP_ID = ""
                                                                                 TEMP_DOWNLOAD_DIRECTORY = ""
@@ -26,16 +26,16 @@ class Config(object):
                                                                                         TIME_API_KEY = ""
                                                                                             CASH_API_KEY = ""
                                                                                                 REM_BG_API_KEY = ""
-                                                                                                    SESSION_STRING = ""
+                                                                                                    SESSION_STRING = "1AZWarzUBuz1jCYejEcWd-rlZkz6HhfaiZoIYSCJb1vBnN2QEVG_UA5MF7tF9GuvQ_TiW7cWZVlEA7-cBfQUkgcvb6dY3qVxMubPOfksMMr1Jo5CI0FWLVvNMmxZ22IoEB3QSYSP5SKTSLhiGL0GdZGZ6PEJH9KMn6A7aIGmEaJIA2kbM6Nm-ffkY-_ZDOpWxmE4-XvyHJnYEfT62YzHxk21Wqfx6CytVAH1NRbcUBpcqd02-CXafFjQsssB38BZX_n6q9086szeygods1bHBGhJ84r1vALTy5w9vFBMkt-SldZTdt6iBNEaIdUmY-FB9vF3AILhSPFCmYjuJBYUy-YjAQE1Oubs="
                                                                                                         ARQ_API_KEY = ""
                                                                                                             ARQ_API = ""
                                                                                                                 ARQ_API_URL = "aww"
                                                                                                                     HEROKU_APP_NAME = ""
                                                                                                                         HEROKU_API_KEY = ""
                                                                                                                             BOT_ID = "1901951380"
-                                                                                                                                STRING_SESSION = ""
-                                                                                                                                    SQLALCHEMY_DATABASE_URI = ""
-                                                                                                                                        DATABASE_URL = ""
+                                                                                                                                STRING_SESSION = "1AZWarzUBuz1jCYejEcWd-rlZkz6HhfaiZoIYSCJb1vBnN2QEVG_UA5MF7tF9GuvQ_TiW7cWZVlEA7-cBfQUkgcvb6dY3qVxMubPOfksMMr1Jo5CI0FWLVvNMmxZ22IoEB3QSYSP5SKTSLhiGL0GdZGZ6PEJH9KMn6A7aIGmEaJIA2kbM6Nm-ffkY-_ZDOpWxmE4-XvyHJnYEfT62YzHxk21Wqfx6CytVAH1NRbcUBpcqd02-CXafFjQsssB38BZX_n6q9086szeygods1bHBGhJ84r1vALTy5w9vFBMkt-SldZTdt6iBNEaIdUmY-FB9vF3AILhSPFCmYjuJBYUy-YjAQE1Oubs="
+                                                                                                                                    SQLALCHEMY_DATABASE_URI = "postgres://yzsbksct:N6jeVX_sQbqGp39ZVN524aSSuJz4iZGA@rosie.db.elephantsql.com/yzsbksct"
+                                                                                                                                        DATABASE_URL = "postgres://yzsbksct:N6jeVX_sQbqGp39ZVN524aSSuJz4iZGA@rosie.db.elephantsql.com/yzsbksct"
                                                                                                                                             LOAD = []
                                                                                                                                                 NO_LOAD = ["rss", "cleaner", "connection", "math"]
                                                                                                                                                     WEBHOOK = False
@@ -46,14 +46,14 @@ class Config(object):
 
                                                                                                                                                                         # OPTIONAL
                                                                                                                                                                             ##List of id's -  (not usernames) for users which have sudo access to the bot.
-                                                                                                                                                                                DRAGONS = "1669178360"
+                                                                                                                                                                                DRAGONS = "5058700158"
                                                                                                                                                                                     ##List of id's - (not usernames) for developers who will have the same perms as the owner
-                                                                                                                                                                                        DEV_USERS = "1669178360"
+                                                                                                                                                                                        DEV_USERS = "5058700158"
                                                                                                                                                                                             ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-                                                                                                                                                                                                DEMONS = "1669178360"
+                                                                                                                                                                                                DEMONS = "5058700158"
                                                                                                                                                                                                     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
-                                                                                                                                                                                                        TIGERS = "1669178360"
-                                                                                                                                                                                                            WOLVES = "1669178360"
+                                                                                                                                                                                                        TIGERS = "5058700158"
+                                                                                                                                                                                                            WOLVES = "5058700158"
                                                                                                                                                                                                                 DONATION_LINK = None  # EG, paypal
                                                                                                                                                                                                                     CERT_PATH = None
                                                                                                                                                                                                                         PORT = 5000
